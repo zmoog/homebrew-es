@@ -3,7 +3,7 @@ cask "es" do
   name "es"
   desc ""
   homepage ""
-  version "0.2.1"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "es" do
   on_macos do
     on_intel do
       url "https://github.com/zmoog/es/releases/download/v#{version}/es_#{version}_darwin_amd64.tar.gz"
-      sha256 "32b06216b7d717993d554f3267ea95f69619e9b1a6d25c71b8dd213c745263ad"
+      sha256 "517bd03d8b9442cc82a0220c8b939f57db214235f73f025b232b7dc401af93c5"
     end
     on_arm do
       url "https://github.com/zmoog/es/releases/download/v#{version}/es_#{version}_darwin_arm64.tar.gz"
-      sha256 "c5353b938e20364042ac1ebeaf934c235131de44bdb27755e159ee5d717fe018"
+      sha256 "b92320c845c795c6da9ba527aff32d1b06824e7c722537d4b4f1811a5415d104"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/zmoog/es/releases/download/v#{version}/es_#{version}_linux_amd64.tar.gz"
-      sha256 "8ac4bc591ede4a683d7a1b5a3cea8b5237d1e764d9ac1d4af3c1d983f9d127f0"
+      sha256 "79998c3021e9fb5b0953819a1f900fe45db302282bdc2987e665d4e4aa59559b"
     end
     on_arm do
       url "https://github.com/zmoog/es/releases/download/v#{version}/es_#{version}_linux_arm64.tar.gz"
-      sha256 "4e34ce47ad5afa8efb2f9d7bb33dacff99e5e20b4f396c761ea30aa9ffbc13dc"
+      sha256 "7cd28855be461d46015ee22ec5935369bbe6530ea2c1ddda5c58e05a53e3f05e"
     end
   end
 
